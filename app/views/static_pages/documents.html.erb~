@@ -1,0 +1,28 @@
+<% 
+	content_for(:title, 'UTEFA | Home') 
+	content_for(:updateid, 'updates'	)
+%>
+
+<div id = "main">`
+	<h1>Learning Material</h1>			
+	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."				
+	<ul>
+		<li type=square class = "doc"><a href="#">Document 1</a></li>						
+		<li type=square class = "doc"><a href="#">Document 1</a></li>						
+		<li type=square class = "doc"><a href="#">Document 1</a></li>						
+		<li type=square class = "doc"><a href="#">Document 1</a></li>						
+		<li type=square class = "doc"><a href="#">Document 1</a></li>						
+	</ul>
+	<br></br>
+	<h1>Housekeeping</h1>			
+	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est"								
+	<ul>					
+		<li type=square class = "doc"><a href="#">Document 1</a></li>						
+		<li type=square class = "doc"><a href="#">Document 1</a></li>						
+		<li type=square class = "doc"><a href="#">Document 1</a></li>						
+		<li type=square class = "doc"><a href="#">Document 1</a></li>						
+		<li type=square class = "doc"><a href="#">Document 1</a></li>						
+	</ul>
+</div>
+
+				

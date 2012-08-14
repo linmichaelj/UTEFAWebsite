@@ -1,0 +1,10 @@
+<div id = "header">
+  <%= link_to "", home_path, :style => 'display:block; width:100%; height:100%;' %>
+  <div id = "buttonholder">											
+    <p>
+     <a href="#" class = "register">Register</a>
+     &nbsp|&nbsp
+	 <a href="#" class = "register">Login</a>					
+    </p>					
+  </div>
+</div>

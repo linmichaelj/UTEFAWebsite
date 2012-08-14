@@ -1,0 +1,10 @@
+<div id = "mainpageupdates">`
+  <h1>Updates</h1>					
+    <p>Update 1 Will go here, can be changed easily.  Can span multiple lines.</p>
+    <hr>
+    <p>Update 2 Will go here, can be changed easily.  Can span multiple lines.</p>
+		<hr>
+		<p>Update 3 Will go here, can be changed easily.  Can span multiple lines.</p>
+		<hr>
+		<p>Update 4 Will go here, can be changed easily.  Can span multiple lines.</p>
+</div>

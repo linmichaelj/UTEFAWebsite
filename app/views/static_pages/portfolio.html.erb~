@@ -1,0 +1,62 @@
+<% 
+	content_for(:title, 'UTEFA | Home') 
+	content_for(:updateid, 'updates'	)
+	content_for(:footerid, 'infoandrights'	)
+%>
+
+<div id = "main">`
+
+	<h1>Current Portfolio Holdings</h1>				
+	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut"		
+
+	<div id = "tablewrapper">
+		<table id="myTable" class="tablesorter"> 
+			<thead> 
+			<tr> 
+			    <th>Symbol</th> 
+			    <th>Description</th> 
+			    <th>Shares</th> 
+			    <th>Purchase</th> 
+			    <th>Current</th> 
+			    <th>Total Value</th>
+			    <th>Net Change</th> 
+			</tr> 
+			</thead> 
+			<tbody> 
+				<tr> 
+				    <td>AAPL</td> 
+				    <td>Apple</td> 
+				    <td>10</td> 				    
+				    <td>$563.50</td> 
+				    <td>$571.30</td> 
+				    <td>$5713.00</td> 
+				    <td>$+78.00</td> 
+				</tr> 
+				<tr> 
+				    <td>DIS</td> 
+				    <td>Walt Disney Co.</td> 
+				    <td>100</td> 				    
+				    <td>$43.30</td> 
+				    <td>$45.33</td> 
+				    <td>$4533</td> 
+				    <td>$+203</td> 
+				</tr> 
+				<tr> 
+				    <td>ZYNG</td> 
+				    <td>Zynga Inc</td> 
+				    <td>100</td> 				    
+				    <td>$10.84</td> 
+				    <td>$8.12</td> 
+				    <td>$812.00</td> 
+				    <td>$-272.00</td> 
+				</tr> 
+			</tbody> 
+		</table> 		
+	</div>
+
+	<h1>Trends & Predictions</h1>				
+	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est"</p>								
+	<%=image_tag("graph.jpg", :alt => "Graph", :id => "graph" ) %>	
+</div>
+	
+

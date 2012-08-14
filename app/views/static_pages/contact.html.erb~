@@ -1,0 +1,13 @@
+<% 
+	content_for(:title, 'UTEFA | Contact Us') 
+	content_for(:updateid, 'updates'	)
+	content_for(:footerid, 'infoandrights'	)
+%>
+
+<div id = "main">`
+	<h1>Contact Information</h1>
+	<p>For Comments and Concerns Please Email: <br/>
+	email@address.com</p>
+	<h1>Meeting Hours</h1>
+	<p>Monday: 12:00 to 24:00</p>
+</div>
