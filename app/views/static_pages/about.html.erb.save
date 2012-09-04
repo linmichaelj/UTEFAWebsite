@@ -1,0 +1,47 @@
+<% 
+	content_for(:title, 'UTEFA | About Us') 
+	content_for(:updateid, 'updates'	)
+	content_for(:footerid, 'infoandrights'	)
+%>
+
+<div id = "main">`
+	<h1>About Us</h1>				
+	<p>Since the inception of the association, our team has been filled with aspiring individuals from the Engineering Faculty.</p>
+	<br></br>
+	<h1>Our Team</h1>
+	<div class = "face">
+		<%=image_tag("face.jpg", :alt => "Garrett Kulhmann") %>						
+		<h3>Co-President</h3>
+		<h4>Garrett Kulhmann</h4>
+	</div>
+	
+	<div class = "face">						
+		<%=image_tag("face.jpg", :alt => "Ashton Wu") %>						
+		<h3>Co-President</h3>
+		<h4>Ashton Wu</h4>
+	</div>
+	
+	<div class = "face">						
+		<%=image_tag("face.jpg", :alt => "Bill Li") %>						
+		<h3>VP Internal</h3>
+		<h4>Bill Li</h4>
+	</div>
+							
+					
+	<div class = "face">						
+		<%=image_tag("face.jpg", :alt => "Alice Zhang ") %>						
+		<h3>VP External</h3>
+		<h4>Alice Zhang </h4>
+	</div>
+	
+	<div class = "face">						
+		<%=image_tag("face.jpg", :alt => "Michael Lin") %>						
+		<h3>VP Technology</h3>
+		<h4>Michael Lin</h4>
+	</div>
+	
+	<div style = "float:left; width:100%">
+		
+	</div>
+	
+</div>
